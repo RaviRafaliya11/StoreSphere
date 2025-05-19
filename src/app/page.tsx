@@ -1,10 +1,13 @@
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
+import { Progress } from "@/components/ui/progress";
 
 export default function Home() {
   return (
     <div>
-      <Button variant="destructive">Hello</Button>
+      <Button variant="elevated" className="m-5">
+        Hello World
+      </Button>
+      <Progress value={50}></Progress>
     </div>
   );
 }
