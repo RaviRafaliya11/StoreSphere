@@ -39,7 +39,7 @@ const NavbarItems = [
 ];
 export const Navbar = () => {
   const pathName = usePathname();
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   return (
     <nav className="h-20 flex border-b bg-white font-medium justify-between ">
       <div className="relative w-20 h-20 mx-2 md:mx-5">
